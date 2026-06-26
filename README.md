@@ -6,7 +6,6 @@
 
 ```
 ├── confusion_data/  
-│   ├── participant_info.tsv
 │   ├── X_4500milli_40dim_0strat_confusion.tsv
 │   ├── X_4500milli_40dim_1strat_confusion.tsv
 │   ├── X_4500milli_40dim_2strat_confusion.tsv
