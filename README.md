@@ -82,7 +82,7 @@ This dataset is licensed under the <a href="https://creativecommons.org/licenses
 @inproceedings{peechatt-etal-2026-modality-time-masking,
     title = "{Modality–Time Masking for Robust Multimodal Confusion Detection",
     author = "Peechatt, Michael  and
-      Alm, Cecilia Ovesdotter  and
+      Alm, Cecilia O. and
       Bailey, Reynold",
     booktitle = "Proceedings of ACII 2026",
     year = "2026"
