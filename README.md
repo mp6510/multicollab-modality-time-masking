@@ -66,14 +66,11 @@ pip install -r requirements.txt
 python test_runner.py
 ```
 
-2. The program should run, showcasing each test configuration it is evaluating (t_w: Time Window, t_s: Time Steps, d_s: Dropping Strategy), periodically outputting the best model results for each dropping strategy.
+2. The program should run, showcasing each test configuration it is evaluating (t_w: Time Window, t_s: Time Steps, d_s: Masking Strategy), periodically outputting the best model results for each masking strategy.
 
 3. The program will end with the last messages:
 ```
 GENERATING FINAL ACII 2026 RESULTS...
 Finished generating results. Please inspect ACII_avg_results.tsv and compare with paper submission.
 ```
-
-4. Please examine the output results (both the averages and each individual configuration) as well as our implementation, and happy reviewing!
-
 ---
