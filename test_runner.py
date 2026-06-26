@@ -78,4 +78,4 @@ script_path = os.path.join(os.getcwd(), "test_results_analysis.py")
 cmd = [python_executable, script_path]
 subprocess.run(cmd, capture_output=True, text=True)
 
-print("Finished generating results. Please inspect ACII_avg_results.tsv and compare with paper submission.")
+print("Finished generating results.")
