@@ -1,4 +1,4 @@
-# Supplementary Materials for ACII 2026
+# Supplementary Materials for Peechatt et al. (ACII 2026)
 
 ---
 
