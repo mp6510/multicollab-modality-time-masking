@@ -70,7 +70,17 @@ python test_runner.py
 
 3. The program will end with the last messages:
 ```
-GENERATING FINAL ACII 2026 RESULTS...
-Finished generating results. Please inspect ACII_avg_results.tsv and compare with paper submission.
+Finished generating results.
 ```
 ---
+
+## Disclaimer and License
+This dataset is licensed under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC-4.0)</a> and subject to [DISCLAIMER](DISCLAIMER.txt). 
+
+## BibTeX Citation
+```
+TDD
+```
+
+## Contact
+For any questions about this dataset, please contact Michael Peechatt at [mp6510@rit.edu](mailto:mp6510@rit.edu).
