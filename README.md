@@ -33,13 +33,13 @@
 
 ## 1. Overview
 
-To maximize reproducibility experiments will be run on the CPU rather than Apple Metal/GPU. **The approximate runtime of this program is 5 minutes**. It will generate 3000 .pth model configurations and then generate the test results shown in the paper. Models will be saved in the models directory, and it will ***require approximatly 1.5 GB of storage space***. This can be deleted after verifying our results.
+To maximize reproducibility experiments will be run on the CPU rather than Apple Metal/GPU. **The approximate runtime of this program is 5 minutes**. It will generate 3000 .pth model configurations and then generate the test results shown in the paper. Models will be saved in the models directory, and it will ***require approximatly 1.5 GB of storage space***. This can be deleted afterwards.
 
 ---
 
 ## 2. Environment Setup
 
-We target **Python 3.11** on Linux/macOS/Windows. It’s best to use a virtual environment:
+This work expects **Python 3.11** on Linux/macOS/Windows. It’s best to use a virtual environment:
 
 ```bash
 python3.11 -m venv .venv
@@ -68,7 +68,7 @@ python test_runner.py
 
 2. The program should run, showcasing each test configuration it is evaluating (t_w: Time Window, t_s: Time Steps, d_s: Masking Strategy), periodically outputting the best model results for each masking strategy.
 
-3. The program will end with the last messages:
+3. The program will end with the last message:
 ```
 Finished generating results.
 ```
